@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -13,49 +19,57 @@
         <a href="#">chirpus.inc</a>
       </h1>
       <nav>
-        <ul>
-          <li>
-            <a href="#">Work</a>
-          </li>
-          <li>
-            <a href="#">About Us</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-          <li>
-            <a href="#">Hire Us</a>
-          </li>
+        <ul class="topnavcontainer">
+          <div class="navlinks">
+            <li class="topnavli">
+              <a href="#">Work</a>
+            </li>
+            <li class="topnavli">
+              <a href="#">About Us</a>
+            </li>
+            <li class="topnavli">
+              <a href="#">Contact</a>
+            </li>
+            <li class="topnavli button-container">
+              <a href="#" class="button">Hire Us</a>
+            </li>
+          </div>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="description">
         <h2>chirpus inc.</h2>
-        <p>
+        <p class="lorem">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
           ratione fugit inventore quisquam magni alias tempore aliquid
           doloremque laboriosam dignissimos sapiente modi possimus neque
           accusamus, aperiam totam voluptates nulla quibusdam.
         </p>
-        <a href="#">Call To Action</a>
+        <p class="button-container">
+          <a href="#" class="button">Call To Action</a>
+        </p>
       </section>
     </main>
     <footer>
-      <p>chirpus inc.</p>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Link 1</a>
-          </li>
-          <li>
-            <a href="#">Link 2</a>
-          </li>
-          <li>
-            <a href="#">Link 3</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="footer">
+        <p class="footer-element1">chirpus inc.</p>
+        <nav class="footer-element1">
+          <ul>
+            <div class="navlinks">
+              <li>
+                <a href="#">Link 1</a>
+              </li>
+              <li>
+                <a href="#">Link 2</a>
+              </li>
+              <li>
+                <a href="#">Link 3</a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
     </footer>
   </body>
 </html>
